@@ -10,6 +10,8 @@
     initGallery();
     initAccordions();
     initSmoothScroll();
+    initPanZoom('masterplan-zoom');
+    initPanZoom('masterplan-zoom-es');
   });
 
   // Mobile Menu Toggle
@@ -430,5 +432,123 @@
 
   // Initialize lazy loading
   initLazyLoading();
+
+  // Pan / Zoom (vanilla, no deps)
+  function initPanZoom(containerId) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    const target = container.querySelector('.zoom-target');
+    const img = target && target.querySelector('img');
+    if (!target || !img) return;
+
+    let scale = 1;
+    const minScale = 1;
+    const maxScale = 6;
+    let originX = 0; // px
+    let originY = 0; // px
+    let isPanning = false;
+    let startX = 0;
+    let startY = 0;
+
+    function applyTransform() {
+      target.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
+    }
+
+    function clampPan() {
+      const rect = container.getBoundingClientRect();
+      const imgW = img.naturalWidth * scale * (rect.width / rect.width);
+      const imgH = (img.naturalHeight || 800) * scale * (rect.height / rect.height);
+      const maxX = Math.max(0, (imgW - rect.width) / 2 + 200); // soft bounds
+      const maxY = Math.max(0, (imgH - rect.height) / 2 + 200);
+      originX = Math.min(Math.max(originX, -maxX), maxX);
+      originY = Math.min(Math.max(originY, -maxY), maxY);
+    }
+
+    // Wheel zoom (desktop)
+    container.addEventListener('wheel', function(e) {
+      e.preventDefault();
+      const delta = -e.deltaY;
+      const factor = delta > 0 ? 1.1 : 0.9;
+      const prevScale = scale;
+      scale = Math.min(maxScale, Math.max(minScale, scale * factor));
+
+      // zoom towards cursor
+      const rect = container.getBoundingClientRect();
+      const cx = e.clientX - rect.left;
+      const cy = e.clientY - rect.top;
+      originX = cx - (cx - originX) * (scale / prevScale);
+      originY = cy - (cy - originY) * (scale / prevScale);
+      clampPan();
+      applyTransform();
+    }, { passive: false });
+
+    // Drag to pan
+    container.addEventListener('mousedown', function(e) {
+      isPanning = true;
+      container.classList.add('zooming');
+      startX = e.clientX - originX;
+      startY = e.clientY - originY;
+    });
+    window.addEventListener('mousemove', function(e) {
+      if (!isPanning) return;
+      originX = e.clientX - startX;
+      originY = e.clientY - startY;
+      clampPan();
+      applyTransform();
+    });
+    window.addEventListener('mouseup', function() {
+      isPanning = false;
+      container.classList.remove('zooming');
+    });
+
+    // Touch support: pan + pinch-to-zoom
+    let touchStartDistance = 0;
+    let touchStartScale = 1;
+    container.addEventListener('touchstart', function(e) {
+      if (e.touches.length === 1) {
+        startX = e.touches[0].clientX - originX;
+        startY = e.touches[0].clientY - originY;
+      } else if (e.touches.length === 2) {
+        touchStartDistance = distance(e.touches[0], e.touches[1]);
+        touchStartScale = scale;
+      }
+    }, { passive: true });
+
+    container.addEventListener('touchmove', function(e) {
+      if (e.touches.length === 1) {
+        originX = e.touches[0].clientX - startX;
+        originY = e.touches[0].clientY - startY;
+      } else if (e.touches.length === 2) {
+        e.preventDefault();
+        const newDist = distance(e.touches[0], e.touches[1]);
+        const prevScale = scale;
+        scale = Math.min(maxScale, Math.max(minScale, touchStartScale * (newDist / touchStartDistance)));
+        clampPan();
+      }
+      applyTransform();
+    }, { passive: false });
+
+    function distance(t1, t2) {
+      const dx = t2.clientX - t1.clientX;
+      const dy = t2.clientY - t1.clientY;
+      return Math.hypot(dx, dy);
+    }
+
+    // Buttons
+    container.addEventListener('click', function(e) {
+      const btn = e.target.closest('[data-zoom]');
+      if (!btn) return;
+      const action = btn.getAttribute('data-zoom');
+      const prevScale = scale;
+      if (action === 'in') scale = Math.min(maxScale, scale * 1.2);
+      if (action === 'out') scale = Math.max(minScale, scale / 1.2);
+      if (action === 'reset') { scale = 1; originX = 0; originY = 0; }
+      clampPan();
+      applyTransform();
+    });
+
+    // Initial paint
+    applyTransform();
+  }
 
 })();
