@@ -109,6 +109,24 @@ p {
   padding: 0 1rem;
 }
 
+/* Full-bleed utility (escapes container to span the full viewport width) */
+.full-bleed {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
+
+/* PDF viewer full-bleed adjustments */
+.pdf-viewer object {
+  width: 100vw;
+  height: 80vh;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 /* Construction Banner */
 .construction-banner {
   background: linear-gradient(135deg, #F59E0B, #D97706);
