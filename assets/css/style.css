@@ -127,6 +127,17 @@ p {
   box-shadow: none;
 }
 
+/* Optional full-bleed section wrapper */
+.section-fullbleed {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .pdf-viewer object {
+    height: 60vh; /* better fit on mobile */
+  }
+}
+
 /* Construction Banner */
 .construction-banner {
   background: linear-gradient(135deg, #F59E0B, #D97706);
