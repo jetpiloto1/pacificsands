@@ -1,0 +1,875 @@
+[
+  {
+    "lot_number": "R-001",
+    "area_m2": 325,
+    "frontage_m": 10,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 3,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-002",
+    "area_m2": 350,
+    "frontage_m": 12,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 4,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-003",
+    "area_m2": 375,
+    "frontage_m": 14,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 5,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-004",
+    "area_m2": 400,
+    "frontage_m": 16,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 6,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-005",
+    "area_m2": 425,
+    "frontage_m": 18,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 7,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-006",
+    "area_m2": 450,
+    "frontage_m": 20,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 8,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-007",
+    "area_m2": 475,
+    "frontage_m": 22,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 9,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-008",
+    "area_m2": 500,
+    "frontage_m": 24,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 10,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-009",
+    "area_m2": 525,
+    "frontage_m": 26,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 11,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-010",
+    "area_m2": 550,
+    "frontage_m": 28,
+    "status": "Sold",
+    "view": "Oceanfront",
+    "elevation_m": 12,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-011",
+    "area_m2": 575,
+    "frontage_m": 30,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 13,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-012",
+    "area_m2": 600,
+    "frontage_m": 32,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 14,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-013",
+    "area_m2": 625,
+    "frontage_m": 34,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 15,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-014",
+    "area_m2": 650,
+    "frontage_m": 36,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 16,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-015",
+    "area_m2": 675,
+    "frontage_m": 8,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 17,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-016",
+    "area_m2": 700,
+    "frontage_m": 10,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 18,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-017",
+    "area_m2": 725,
+    "frontage_m": 12,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 19,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-018",
+    "area_m2": 750,
+    "frontage_m": 14,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 20,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-019",
+    "area_m2": 775,
+    "frontage_m": 16,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 21,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-020",
+    "area_m2": 300,
+    "frontage_m": 18,
+    "status": "Reserved",
+    "view": "Oceanfront",
+    "elevation_m": 22,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-021",
+    "area_m2": 325,
+    "frontage_m": 20,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 23,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-022",
+    "area_m2": 350,
+    "frontage_m": 22,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 24,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-023",
+    "area_m2": 375,
+    "frontage_m": 24,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 25,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-024",
+    "area_m2": 400,
+    "frontage_m": 26,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 26,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-025",
+    "area_m2": 425,
+    "frontage_m": 28,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 27,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-026",
+    "area_m2": 450,
+    "frontage_m": 30,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 28,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-027",
+    "area_m2": 475,
+    "frontage_m": 32,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 29,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-028",
+    "area_m2": 500,
+    "frontage_m": 34,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 30,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-029",
+    "area_m2": 525,
+    "frontage_m": 36,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 31,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-030",
+    "area_m2": 550,
+    "frontage_m": 8,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 2,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-031",
+    "area_m2": 575,
+    "frontage_m": 10,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 3,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-032",
+    "area_m2": 600,
+    "frontage_m": 12,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 4,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-033",
+    "area_m2": 625,
+    "frontage_m": 14,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 5,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-034",
+    "area_m2": 650,
+    "frontage_m": 16,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 6,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-035",
+    "area_m2": 675,
+    "frontage_m": 18,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 7,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-036",
+    "area_m2": 700,
+    "frontage_m": 20,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 8,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-037",
+    "area_m2": 725,
+    "frontage_m": 22,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 9,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-038",
+    "area_m2": 750,
+    "frontage_m": 24,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 10,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-039",
+    "area_m2": 775,
+    "frontage_m": 26,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 11,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-040",
+    "area_m2": 300,
+    "frontage_m": 28,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 12,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-041",
+    "area_m2": 325,
+    "frontage_m": 30,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 13,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-042",
+    "area_m2": 350,
+    "frontage_m": 32,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 14,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-043",
+    "area_m2": 375,
+    "frontage_m": 34,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 15,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-044",
+    "area_m2": 400,
+    "frontage_m": 36,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 16,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-045",
+    "area_m2": 425,
+    "frontage_m": 8,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 17,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-046",
+    "area_m2": 450,
+    "frontage_m": 10,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 18,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-047",
+    "area_m2": 475,
+    "frontage_m": 12,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 19,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-048",
+    "area_m2": 500,
+    "frontage_m": 14,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 20,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-049",
+    "area_m2": 525,
+    "frontage_m": 16,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 21,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-050",
+    "area_m2": 550,
+    "frontage_m": 18,
+    "status": "Available",
+    "view": "Ocean view",
+    "elevation_m": 22,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-051",
+    "area_m2": 575,
+    "frontage_m": 20,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 23,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-052",
+    "area_m2": 600,
+    "frontage_m": 22,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 24,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-053",
+    "area_m2": 625,
+    "frontage_m": 24,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 25,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-054",
+    "area_m2": 650,
+    "frontage_m": 26,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 26,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-055",
+    "area_m2": 675,
+    "frontage_m": 28,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 27,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-056",
+    "area_m2": 700,
+    "frontage_m": 30,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 28,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-057",
+    "area_m2": 725,
+    "frontage_m": 32,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 29,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-058",
+    "area_m2": 750,
+    "frontage_m": 34,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 30,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-059",
+    "area_m2": 775,
+    "frontage_m": 36,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 31,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-060",
+    "area_m2": 300,
+    "frontage_m": 8,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 2,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-061",
+    "area_m2": 325,
+    "frontage_m": 10,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 3,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-062",
+    "area_m2": 350,
+    "frontage_m": 12,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 4,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-063",
+    "area_m2": 375,
+    "frontage_m": 14,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 5,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-064",
+    "area_m2": 400,
+    "frontage_m": 16,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 6,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-065",
+    "area_m2": 425,
+    "frontage_m": 18,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 7,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-066",
+    "area_m2": 450,
+    "frontage_m": 20,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 8,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-067",
+    "area_m2": 475,
+    "frontage_m": 22,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 9,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-068",
+    "area_m2": 500,
+    "frontage_m": 24,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 10,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-069",
+    "area_m2": 525,
+    "frontage_m": 26,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 11,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-070",
+    "area_m2": 550,
+    "frontage_m": 28,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 12,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-071",
+    "area_m2": 575,
+    "frontage_m": 30,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 13,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-072",
+    "area_m2": 600,
+    "frontage_m": 32,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 14,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-073",
+    "area_m2": 625,
+    "frontage_m": 34,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 15,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-074",
+    "area_m2": 650,
+    "frontage_m": 36,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 16,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-075",
+    "area_m2": 675,
+    "frontage_m": 8,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 17,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-076",
+    "area_m2": 700,
+    "frontage_m": 10,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 18,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-077",
+    "area_m2": 725,
+    "frontage_m": 12,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 19,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-078",
+    "area_m2": 750,
+    "frontage_m": 14,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 20,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-079",
+    "area_m2": 775,
+    "frontage_m": 16,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 21,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-080",
+    "area_m2": 300,
+    "frontage_m": 18,
+    "status": "Available",
+    "view": "Garden view",
+    "elevation_m": 22,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-081",
+    "area_m2": 325,
+    "frontage_m": 20,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 23,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-082",
+    "area_m2": 350,
+    "frontage_m": 22,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 24,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-083",
+    "area_m2": 375,
+    "frontage_m": 24,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 25,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-084",
+    "area_m2": 400,
+    "frontage_m": 26,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 26,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-085",
+    "area_m2": 425,
+    "frontage_m": 28,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 27,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-086",
+    "area_m2": 450,
+    "frontage_m": 30,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 28,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-087",
+    "area_m2": 475,
+    "frontage_m": 32,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 29,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-088",
+    "area_m2": 500,
+    "frontage_m": 34,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 30,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-089",
+    "area_m2": 525,
+    "frontage_m": 36,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 31,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-090",
+    "area_m2": 550,
+    "frontage_m": 8,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 2,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-091",
+    "area_m2": 575,
+    "frontage_m": 10,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 3,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-092",
+    "area_m2": 600,
+    "frontage_m": 12,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 4,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-093",
+    "area_m2": 625,
+    "frontage_m": 14,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 5,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-094",
+    "area_m2": 650,
+    "frontage_m": 16,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 6,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-095",
+    "area_m2": 675,
+    "frontage_m": 18,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 7,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "R-096",
+    "area_m2": 700,
+    "frontage_m": 20,
+    "status": "Available",
+    "view": "Interior",
+    "elevation_m": 8,
+    "type": "Residential"
+  },
+  {
+    "lot_number": "C-001",
+    "area_m2": 1200,
+    "frontage_m": 25,
+    "status": "Available",
+    "view": "Oceanfront",
+    "elevation_m": 2,
+    "type": "Commercial"
+  }
+]

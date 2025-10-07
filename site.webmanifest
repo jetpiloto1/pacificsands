@@ -1,0 +1,26 @@
+{
+  "name": "Pacific Sands - Oceanfront Lots in Barra de Navidad",
+  "short_name": "Pacific Sands",
+  "description": "Oceanfront lots in Barra de Navidad, Costa Alegre, Mexico. Secure ownership through fideicomiso.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F4C81",
+  "theme_color": "#1DB9C3",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

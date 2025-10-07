@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English Pages -->
+  <url>
+    <loc>https://pacificsands.mx/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/about-barra.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/sobre-barra.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/owning-property.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/propiedad-en-mexico.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/lots.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/lotes.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/gallery.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/galeria.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/contact.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/contacto.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/investors.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/inversionistas.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/privacy.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/privacidad.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/terms.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/terminos.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/accessibility.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/accesibilidad.html"/>
+  </url>
+  
+  <!-- Spanish Pages -->
+  <url>
+    <loc>https://pacificsands.mx/es/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/sobre-barra.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/about-barra.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/propiedad-en-mexico.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/owning-property.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/lotes.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/lots.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/galeria.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/gallery.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/contacto.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/contact.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/inversionistas.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/investors.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/privacidad.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/privacy.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/terminos.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/terms.html"/>
+  </url>
+  
+  <url>
+    <loc>https://pacificsands.mx/es/accesibilidad.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pacificsands.mx/accessibility.html"/>
+  </url>
+</urlset>

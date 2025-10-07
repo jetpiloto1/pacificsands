@@ -1,0 +1,82 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 300
+>>
+stream
+BT
+/F1 16 Tf
+100 700 Td
+(Pacific Sands) Tj
+0 -30 Td
+(Oceanfront Lots in Barra de Navidad) Tj
+0 -30 Td
+(Costa Alegre, Mexico) Tj
+0 -50 Td
+/F1 12 Tf
+(Investment Opportunity) Tj
+0 -20 Td
+(Land-backed real estate development) Tj
+0 -20 Td
+(Secure ownership through fideicomiso) Tj
+0 -20 Td
+(15 premium oceanfront lots) Tj
+0 -20 Td
+(Contact: info@pacificsands.mx) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000602 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+700
+%%EOF

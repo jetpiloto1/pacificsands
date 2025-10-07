@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Lots - Pacific Sands Masterplan | Barra de Navidad</title>
+    <meta name="description" content="Browse available oceanfront lots in Pacific Sands, Barra de Navidad. Interactive masterplan with pricing, sizes, and status. Download PDF masterplan and price list.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pacificsands.mx/lots.html">
+    <meta property="og:title" content="Available Lots - Pacific Sands Masterplan">
+    <meta property="og:description" content="Browse available oceanfront lots in Pacific Sands, Barra de Navidad. Interactive masterplan with pricing, sizes, and status.">
+    <meta property="og:image" content="https://pacificsands.mx/assets/images/masterplan-preview.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pacificsands.mx/lots.html">
+    <meta property="twitter:title" content="Available Lots - Pacific Sands Masterplan">
+    <meta property="twitter:description" content="Browse available oceanfront lots in Pacific Sands, Barra de Navidad. Interactive masterplan with pricing, sizes, and status.">
+    <meta property="twitter:image" content="https://pacificsands.mx/assets/images/masterplan-preview.jpg">
+    
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://pacificsands.mx/lots.html">
+    <link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/lotes.html">
+    <link rel="canonical" href="https://pacificsands.mx/lots.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">Pacific Sands</a>
+                
+                <nav class="nav">
+                    <ul class="nav-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about-barra.html">About Barra</a></li>
+                        <li><a href="/owning-property.html">Owning Property</a></li>
+                        <li><a href="/lots.html">Lots</a></li>
+                        <li><a href="/gallery.html">Gallery</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/investors.html">Investors</a></li>
+                    </ul>
+                    
+                    <div class="language-toggle">
+                        <a href="/" class="active">EN</a>
+                        <a href="/es/">ES</a>
+                    </div>
+                    
+                    <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Toggle menu">☰</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; background: linear-gradient(135deg, var(--ocean) 0%, var(--teal) 100%);">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Available Lots</h1>
+                <p>Choose your perfect oceanfront lot in Pacific Sands</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Masterplan Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Masterplan</h2>
+                <p>Explore our carefully designed community layout</p>
+            </div>
+            
+            <div class="fade-in">
+                <object data="/assets/docs/masterplan.pdf" type="application/pdf" width="100%" height="700" style="border-radius: 8px; box-shadow: var(--shadow-lg);">
+                    <div style="text-align: center; padding: 2rem; background: var(--light-gray); border-radius: 8px;">
+                        <p>PDF viewer not supported. <a href="/assets/docs/masterplan.pdf" class="btn btn-primary">Download Masterplan PDF</a></p>
+                    </div>
+                </object>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="/assets/docs/masterplan.pdf" class="btn btn-primary" target="_blank">Download Masterplan (PDF)</a>
+                <button id="export-csv" class="btn btn-secondary">Download Price List (CSV)</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Find Your Perfect Lot</h2>
+                <p>Use filters to narrow down your search</p>
+            </div>
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="status-filter">Status</label>
+                    <select id="status-filter">
+                        <option value="">All Status</option>
+                        <option value="Available">Available</option>
+                        <option value="Reserved">Reserved</option>
+                        <option value="Sold">Sold</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="view-filter">View</label>
+                    <select id="view-filter">
+                        <option value="">All Views</option>
+                        <option value="Oceanfront">Oceanfront</option>
+                        <option value="Ocean view">Ocean view</option>
+                        <option value="Garden view">Garden view</option>
+                        <option value="Interior">Interior</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="min-area">Min Area (m²)</label>
+                    <input type="number" id="min-area" placeholder="0" min="0">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="max-area">Max Area (m²)</label>
+                    <input type="number" id="max-area" placeholder="1000" min="0">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="type-filter">Type</label>
+                    <select id="type-filter">
+                        <option value="">All Types</option>
+                        <option value="Residential">Residential</option>
+                        <option value="Commercial">Commercial</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="sort-by">Sort By</label>
+                    <select id="sort-by">
+                        <option value="lot_number">Lot Number</option>
+                        <option value="area_asc">Area (Small to Large)</option>
+                        <option value="area_desc">Area (Large to Small)</option>
+                        <option value="type">Type</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lots Table -->
+    <section class="section">
+        <div class="container">
+            <div class="lots-table-container">
+                <table class="table lots-table">
+                    <thead>
+                        <tr>
+                            <th>Lot Number</th>
+                            <th>Type</th>
+                            <th>Area (m²)</th>
+                            <th>Frontage (m)</th>
+                            <th>Status</th>
+                            <th>View</th>
+                            <th>Elevation (m)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data will be loaded dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lot Categories -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Lot Categories</h2>
+                <p>Understanding the different types of lots available</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card fade-in">
+                    <div class="card-icon">🏠</div>
+                    <h3>Residential Lots</h3>
+                    <p>96 residential lots available with various views and sizes. Perfect for building your dream home in paradise.</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">🏢</div>
+                    <h3>Commercial Lot</h3>
+                    <p>1 prime commercial lot available for business development. Ideal for restaurants, shops, or hospitality ventures.</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-4">
+                <div class="card fade-in">
+                    <div class="card-icon">🌊</div>
+                    <h3>Oceanfront</h3>
+                    <p>Direct beach access with unobstructed ocean views. Premium lots with the most desirable locations.</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">🏔️</div>
+                    <h3>Ocean View</h3>
+                    <p>Elevated lots with panoramic ocean views. Great value with excellent views and privacy.</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">🌴</div>
+                    <h3>Garden View</h3>
+                    <p>Lots surrounded by lush vegetation and gardens. Peaceful and private with natural landscaping.</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">🏠</div>
+                    <h3>Interior</h3>
+                    <p>Lots in the interior of the development. Great for those prioritizing community access and value.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Information -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="fade-in">
+                    <h2>Development Highlights</h2>
+                    <ul>
+                        <li><strong>Prime Location:</strong> Oceanfront property in Costa Alegre's most desirable area</li>
+                        <li><strong>Limited Supply:</strong> Only 97 total lots available in this exclusive development</li>
+                        <li><strong>Infrastructure Ready:</strong> Utilities and roads will be installed as development progresses</li>
+                        <li><strong>Secure Ownership:</strong> Full property rights through fideicomiso (bank trust)</li>
+                        <li><strong>Growth Potential:</strong> Costa Alegre is experiencing rapid development and appreciation</li>
+                        <li><strong>Rental Income:</strong> Strong potential for vacation rental income</li>
+                    </ul>
+                </div>
+                
+                <div class="fade-in">
+                    <h2>Lot Information</h2>
+                    <ul>
+                        <li><strong>Residential Lots:</strong> 96 lots available for home construction</li>
+                        <li><strong>Commercial Lot:</strong> 1 prime commercial lot for business development</li>
+                        <li><strong>Various Sizes:</strong> Lots range from 300 to 1,200 square meters</li>
+                        <li><strong>Multiple Views:</strong> Oceanfront, ocean view, garden view, and interior options</li>
+                        <li><strong>Flexible Terms:</strong> Contact us for availability and terms</li>
+                    </ul>
+                    
+                    <p><strong>Note:</strong> Contact us for current availability and detailed lot information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="card fade-in" style="background: linear-gradient(135deg, var(--ocean), var(--teal)); color: white; text-align: center;">
+                <h2 style="color: white; margin-bottom: 1rem;">Ready to Secure Your Lot?</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2rem; opacity: 0.9;">Contact us to schedule a site visit or get more information</p>
+                <div class="cta-buttons">
+                    <a href="/contact.html" class="btn btn-primary" style="background: white; color: var(--ocean);">Contact Us</a>
+                    <a href="/owning-property.html" class="btn btn-secondary" style="border-color: white; color: white;">Learn About Ownership</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pacific Sands</h4>
+                    <p>Oceanfront lots in Barra de Navidad, Costa Alegre, Mexico</p>
+                    <p>Barra de Navidad, Jalisco, Mexico</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <p><a href="/about-barra.html">About Barra</a></p>
+                    <p><a href="/owning-property.html">Owning Property</a></p>
+                    <p><a href="/lots.html">Available Lots</a></p>
+                    <p><a href="/gallery.html">Gallery</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:info@pacificsands.mx">info@pacificsands.mx</a></p>
+                    <p><a href="tel:+52-315-123-4567">+52 (315) 123-4567</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <p><a href="/privacy.html">Privacy Policy</a></p>
+                    <p><a href="/terms.html">Terms of Service</a></p>
+                    <p><a href="/accessibility.html">Accessibility</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pacific Sands. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

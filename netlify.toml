@@ -1,0 +1,121 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-XSS-Protection = "1; mode=block"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.jpeg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "http://pacificsands.mx/*"
+  to = "https://pacificsands.mx/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.pacificsands.mx/*"
+  to = "https://pacificsands.mx/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.pacificsands.mx/*"
+  to = "https://pacificsands.mx/:splat"
+  status = 301
+  force = true
+
+# Form handling
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/about-barra.html"
+  status = 301
+
+[[redirects]]
+  from = "/property"
+  to = "/owning-property.html"
+  status = 301
+
+[[redirects]]
+  from = "/gallery"
+  to = "/gallery.html"
+  status = 301
+
+[[redirects]]
+  from = "/investors"
+  to = "/investors.html"
+  status = 301
+
+# Spanish redirects
+[[redirects]]
+  from = "/es/contacto"
+  to = "/es/contacto.html"
+  status = 301
+
+[[redirects]]
+  from = "/es/sobre"
+  to = "/es/sobre-barra.html"
+  status = 301
+
+[[redirects]]
+  from = "/es/propiedad"
+  to = "/es/propiedad-en-mexico.html"
+  status = 301
+
+[[redirects]]
+  from = "/es/galeria"
+  to = "/es/galeria.html"
+  status = 301
+
+[[redirects]]
+  from = "/es/inversionistas"
+  to = "/es/inversionistas.html"
+  status = 301

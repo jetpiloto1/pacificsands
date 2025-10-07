@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Pacific Sands | Barra de Navidad</title>
+    <meta name="description" content="Contacte a Pacific Sands para información sobre lotes frente al mar en Barra de Navidad. Póngase en contacto para visitas al sitio, precios y detalles de propiedad.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pacificsands.mx/es/contacto.html">
+    <meta property="og:title" content="Contáctanos - Pacific Sands | Barra de Navidad">
+    <meta property="og:description" content="Contacte a Pacific Sands para información sobre lotes frente al mar en Barra de Navidad. Póngase en contacto para visitas al sitio, precios y detalles de propiedad.">
+    <meta property="og:image" content="https://pacificsands.mx/assets/images/contact-hero.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pacificsands.mx/es/contacto.html">
+    <meta property="twitter:title" content="Contáctanos - Pacific Sands | Barra de Navidad">
+    <meta property="twitter:description" content="Contacte a Pacific Sands para información sobre lotes frente al mar en Barra de Navidad. Póngase en contacto para visitas al sitio, precios y detalles de propiedad.">
+    <meta property="twitter:image" content="https://pacificsands.mx/assets/images/contact-hero.jpg">
+    
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://pacificsands.mx/contact.html">
+    <link rel="alternate" hreflang="es" href="https://pacificsands.mx/es/contacto.html">
+    <link rel="canonical" href="https://pacificsands.mx/es/contacto.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="/es/" class="logo">Pacific Sands</a>
+                
+                <nav class="nav">
+                    <ul class="nav-links">
+                        <li><a href="/es/">Inicio</a></li>
+                        <li><a href="/es/sobre-barra.html">Sobre Barra</a></li>
+                        <li><a href="/es/propiedad-en-mexico.html">Propiedad en México</a></li>
+                        <li><a href="/es/lotes.html">Lotes</a></li>
+                        <li><a href="/es/galeria.html">Galería</a></li>
+                        <li><a href="/es/contacto.html">Contacto</a></li>
+                        <li><a href="/es/inversionistas.html">Inversionistas</a></li>
+                    </ul>
+                    
+                    <div class="language-toggle">
+                        <a href="/">EN</a>
+                        <a href="/es/" class="active">ES</a>
+                    </div>
+                    
+                    <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Toggle menu">☰</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh; background: linear-gradient(135deg, var(--ocean) 0%, var(--teal) 100%);">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Contáctanos</h1>
+                <p>Póngase en contacto para obtener más información sobre Pacific Sands</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="fade-in">
+                    <h2>Envíanos un Mensaje</h2>
+                    <p>Nos encantaría saber de usted. Complete el formulario a continuación y le responderemos dentro de 24 horas.</p>
+                    
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact">
+                        <p class="hidden">
+                            <label>No complete esto: <input name="bot-field"></label>
+                        </p>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Interés</label>
+                            <select id="interest" name="interest">
+                                <option value="">Seleccione su interés</option>
+                                <option value="buy-lot">Comprar un lote</option>
+                                <option value="invest">Invertir</option>
+                                <option value="general">Consulta general</option>
+                                <option value="site-visit">Programar visita al sitio</option>
+                                <option value="financing">Información de financiamiento</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Cuéntenos sobre su interés en Pacific Sands..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
+                <div class="fade-in">
+                    <h2>Póngase en Contacto</h2>
+                    
+                    <div class="card" style="margin-bottom: 2rem;">
+                        <h3>Información de Contacto</h3>
+                        <p><strong>Correo Electrónico:</strong><br>
+                        <a href="mailto:info@pacificsands.mx">info@pacificsands.mx</a></p>
+                        
+                        <p><strong>Teléfono:</strong><br>
+                        <a href="tel:+52-315-123-4567">+52 (315) 123-4567</a></p>
+                        
+                        <p><strong>Dirección:</strong><br>
+                        Desarrollo Pacific Sands<br>
+                        Barra de Navidad, Jalisco, México</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Horarios de Oficina</h3>
+                        <p><strong>Lunes - Viernes:</strong> 9:00 AM - 6:00 PM<br>
+                        <strong>Sábado:</strong> 10:00 AM - 4:00 PM<br>
+                        <strong>Domingo:</strong> Con cita</p>
+                        
+                        <p><em>Todos los horarios son en Hora Central (México)</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Ubicación</h2>
+                <p>Encuéntrenos en la hermosa Barra de Navidad, Costa Alegre</p>
+            </div>
+            
+            <div class="fade-in">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746.123456789!2d-104.6789!3d19.2345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE0JzA0LjIiTiAxMDTCsDQwJzQ0LjAiVw!5e0!3m2!1ses!2smx!4v1234567890"
+                    width="100%" 
+                    height="400" 
+                    style="border:0; border-radius: 8px; box-shadow: var(--shadow-lg);" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+        <div class="container">
+            <div class="card fade-in" style="background: linear-gradient(135deg, var(--ocean), var(--teal)); color: white; text-align: center;">
+                <h2 style="color: white; margin-bottom: 1rem;">¿Listo para Comenzar Su Viaje?</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2rem; opacity: 0.9;">Contáctenos hoy para obtener más información sobre lotes disponibles y el proceso de compra</p>
+                <div class="cta-buttons">
+                    <a href="#contact-form" class="btn btn-primary" style="background: white; color: var(--ocean);">Enviar Mensaje</a>
+                    <a href="/es/lotes.html" class="btn btn-secondary" style="border-color: white; color: white;">Ver Lotes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pacific Sands</h4>
+                    <p>Lotes frente al mar en Barra de Navidad, Costa Alegre, México</p>
+                    <p>Barra de Navidad, Jalisco, México</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <p><a href="/es/sobre-barra.html">Sobre Barra</a></p>
+                    <p><a href="/es/propiedad-en-mexico.html">Propiedad en México</a></p>
+                    <p><a href="/es/lotes.html">Lotes Disponibles</a></p>
+                    <p><a href="/es/galeria.html">Galería</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><a href="mailto:info@pacificsands.mx">info@pacificsands.mx</a></p>
+                    <p><a href="tel:+52-315-123-4567">+52 (315) 123-4567</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <p><a href="/es/privacidad.html">Política de Privacidad</a></p>
+                    <p><a href="/es/terminos.html">Términos de Servicio</a></p>
+                    <p><a href="/es/accesibilidad.html">Accesibilidad</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pacific Sands. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
