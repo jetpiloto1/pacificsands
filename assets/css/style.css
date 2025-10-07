@@ -138,6 +138,16 @@ p {
   }
 }
 
+/* Masterplan image full-bleed */
+.masterplan-image {
+  position: relative;
+}
+.masterplan-image img {
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+
 /* Construction Banner */
 .construction-banner {
   background: linear-gradient(135deg, #F59E0B, #D97706);
