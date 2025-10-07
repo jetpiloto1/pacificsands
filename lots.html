@@ -88,17 +88,26 @@
             </div>
             
             <div class="text-center mt-4">
-                <a href="/assets/docs/masterplan.pdf" class="btn btn-primary" target="_blank">Download Masterplan (PDF)</a>
+                <a href="/assets/images/masterplan.jpg" class="btn btn-primary" target="_blank" rel="noopener">Open Full Size Masterplan (JPG)</a>
             </div>
         </div>
     </section>
 
-    <!-- Full-bleed Masterplan Image -->
+    <!-- Full-bleed Masterplan Image with Pan/Zoom -->
     <section class="section section-fullbleed">
         <div class="masterplan-image full-bleed">
-            <picture>
-                <img src="/assets/images/masterplan.jpg" alt="Pacific Sands Masterplan" loading="lazy" width="2400" height="800">
-            </picture>
+            <div class="zoom-container" id="masterplan-zoom">
+                <div class="zoom-target">
+                    <picture>
+                        <img src="/assets/images/masterplan.jpg" alt="Pacific Sands Masterplan" width="2400" height="800">
+                    </picture>
+                </div>
+                <div class="zoom-controls" aria-label="Zoom controls">
+                    <button class="btn-zoom" data-zoom="in" aria-label="Zoom in">+</button>
+                    <button class="btn-zoom" data-zoom="out" aria-label="Zoom out">−</button>
+                    <button class="btn-zoom" data-zoom="reset" aria-label="Reset zoom">Reset</button>
+                </div>
+            </div>
         </div>
     </section>
 

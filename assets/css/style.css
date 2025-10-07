@@ -148,6 +148,42 @@ p {
   height: auto;
 }
 
+/* Pan/Zoom controls */
+.zoom-controls {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 2;
+}
+.zoom-controls .btn-zoom {
+  background: rgba(31, 41, 55, 0.8);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.zoom-controls .btn-zoom:hover {
+  background: rgba(31, 41, 55, 0.95);
+}
+
+.zoom-container {
+  overflow: hidden;
+  width: 100vw;
+  touch-action: none; /* enable custom pinch/pan */
+  background: #f3f4f6;
+}
+.zoom-target {
+  transform-origin: 0 0;
+  cursor: grab;
+}
+.zooming .zoom-target {
+  cursor: grabbing;
+}
+
 /* Construction Banner */
 .construction-banner {
   background: linear-gradient(135deg, #F59E0B, #D97706);
