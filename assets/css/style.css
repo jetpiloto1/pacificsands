@@ -109,10 +109,30 @@ p {
   padding: 0 1rem;
 }
 
+/* Construction Banner */
+.construction-banner {
+  background: linear-gradient(135deg, #F59E0B, #D97706);
+  color: white;
+  padding: 0.75rem 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.construction-banner p {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
 /* Header */
 .header {
   position: sticky;
-  top: 0;
+  top: 2.5rem; /* Adjusted for construction banner */
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(15, 76, 129, 0.1);
@@ -255,6 +275,7 @@ p {
   background: linear-gradient(135deg, var(--ocean) 0%, var(--teal) 100%);
   color: var(--white);
   overflow: hidden;
+  padding-top: 2.5rem; /* Account for construction banner */
 }
 
 .hero::before {
