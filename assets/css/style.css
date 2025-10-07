@@ -574,6 +574,11 @@ p {
   color: #991B1B;
 }
 
+.status-coming-soon {
+  background: #E0E7FF;
+  color: #3730A3;
+}
+
 /* Filters */
 .filters {
   display: flex;
